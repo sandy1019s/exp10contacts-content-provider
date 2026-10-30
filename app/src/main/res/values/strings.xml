@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Connectly</string>
+    <string name="app_subtitle">Smart Contact Discovery &amp; Sharing</string>
+    <string name="dashboard_title">Contacts Discovery</string>
+    <string name="dashboard_subtitle">%1$d contacts available on device</string>
+    <string name="search_hint">Search contacts by name or phone...</string>
+    <string name="share_contact">Share Contact</string>
+    <string name="quick_share">Quick Share</string>
+    <string name="call_contact">Call</string>
+    <string name="message_contact">Message</string>
+    <string name="email_contact">Email</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="contact_id">Contact ID</string>
+    <string name="no_email_available">No email address available</string>
+
+    <!-- Permission and Empty States -->
+    <string name="permission_required_title">Contacts Permission Needed</string>
+    <string name="permission_required_desc">Connectly needs access to your contacts to display and share contact details using the Android Contacts Content Provider.</string>
+    <string name="grant_permission">Grant Permission</string>
+
+    <string name="empty_contacts_title">No Contacts Found</string>
+    <string name="empty_contacts_desc">No contacts were found on this device or emulator. Add contacts in the device Contacts app to view them here.</string>
+
+    <string name="no_search_results_title">No Matching Contacts</string>
+    <string name="no_search_results_desc">No contacts found matching \"%1$s\"</string>
+
+    <string name="share_via">Share Contact Details via</string>
+    <string name="sharing_text">Name: %1$s\nPhone: %2$s</string>
+    <string name="sharing_text_with_email">Name: %1$s\nPhone: %2$s\nEmail: %3$s</string>
+
+    <string name="loading_contacts">Reading contacts from Content Provider...</string>
+
+    <plurals name="contacts_count">
+        <item quantity="one">%1$d contact available on device</item>
+        <item quantity="other">%1$d contacts available on device</item>
+    </plurals>
+</resources>

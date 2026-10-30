@@ -184,15 +184,24 @@ private fun shareContact(contact: Contact) {
 
 ## 7. Screenshots
 
-| Permission Request Screen | Contact Details Screen |
-| :---: | :---: |
-| ![Permission Request Screen](screenshots/permission_request.png) | ![Contact Details Screen](screenshots/contact_details_screen.png) |
-
-| Main Contacts List | Contact Sharing Intent |
-| :---: | :---: |
-| ![Main Contacts Screen](screenshots/main_contacts_screen.png) | ![Contact Sharing Screen](screenshots/contact_sharing_screen.png) |
-
-*Note: You can place additional screenshot image files in the `screenshots/` directory using the filenames listed above.*
+<table border="1" cellpadding="10" cellspacing="0">
+  <tr>
+    <td align="center" width="50%">
+      <img src="screenshots/Screenshot_20261030_121727.png" alt="Contacts permission request screen" width="280">
+      <br>
+      <strong>Contacts Permission Request</strong>
+      <br>
+      <sub>Connectly explains why contacts access is required and displays the Android permission dialog before loading device contacts.</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="screenshots/Screenshot_20261030_121916.png" alt="Contact details screen" width="280">
+      <br>
+      <strong>Contact Details</strong>
+      <br>
+      <sub>The details screen shows the contact photo, name, phone number, call and message actions, sharing control, email status, and contact ID.</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
